@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); font-size: inherit; }
+  </style>
+</head>
+<body>
+  <img src="images/logo.svg" alt="" id="logo">
+  <div class="card">
+    <form class="input">
+      <fieldset>
+        <legend>Bill</legend>
+          <div class="full-width-field">
+            <img src="images/icon-dollar.svg" alt="$">
+            <input type="number" name="total-bill" id="total-bill" placeholder="0">
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Select Tip %</legend>
+        <label for="tip" class="small-width-field">
+          <button class="tip" id="five" value="5">5%</button>
+          <button class="tip" id="ten" value="10">10%</button>
+          <button class="tip" id="fifteen" value="15">15%</button>
+          <button class="tip" id="twentyfive" value="25">25%</button>
+          <button class="tip" id="fifty" value="50">50%</button>
+          <input type="number" placeholder="Custom" id="custom">
+        </label>
+      </fieldset>
+      <fieldset>
+        <div class="inline">
+          <legend>Number of People</legend>
+          <div id="notZeroText"></div>
+        </div>
+        <div class="full-width-field">
+          <img src="images/icon-person.svg" alt="😏">
+          <input type="number" name="n-people" id="n-people" placeholder="0" value="1">
+        </div>
+      </fieldset>
+    </form>
+    <section class="output">
+      <div class="super-output-set">
+        <div class="output-set">
+          <div class="label">
+            <p>Tip Amount</p>
+            <p>/ person</p>
+          </div>
+          <div class="output-text" id="tip-output">$0.00</div>
+        </div>
+        <div class="output-set">
+          <div class="label">
+            <p>Total</p>
+            <p>/ person</p>
+          </div>
+          <div class="output-text" id="total-output">$0.00</div>
+        </div>
+      </div>
+      <button id="reset">RESET</button>
+    </section>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/RHShihab" target="_blank">Rahat Hasan Shihab</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
