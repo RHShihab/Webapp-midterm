@@ -12,5 +12,5 @@ Section: 1 <br>
 ### Desktop view:
 ![](snapshots/desktop.png)
 
-### Desktop view:
+### Mobile view:
 ![](snapshots/mobile.png)
