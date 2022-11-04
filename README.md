@@ -1,17 +1,16 @@
-# freecodecamp-journey
+# Midterm
 
-This repo documents all the certification projects required for Freecodecamp's [Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/) course
+Name: Rahat Hasan Shihab <br>
+ID: 1910279 <br>
+Course: CSE309 <br>
+Section: 1 <br>
 
-<hr>
+## Live demo: [rhshihab.github.io/Webapp-midterm/](https://rhshihab.github.io/Webapp-midterm/)
 
-[Click here](https://rhshihab.github.io/freecodecamp-journey/) to see the live demo.
+## Screenshots of the page:
 
-I will be adding more projects as I proceed with the course.
+### Desktop view:
+![](snapshots/desktop.png)
 
-<hr>
-
-## Certificate:
-
-![image of certificate](snapshots/shihab-responsiveWebDesign.png)
-
-[Click here](https://www.freecodecamp.org/certification/rh-Shihab/responsive-web-design) to verify this certificate.
+### Desktop view:
+![](snapshots/mobile.png)
