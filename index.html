@@ -22,8 +22,17 @@
     <main>
       <section id="welcome-section">
         <div>
-          <h1 class="title">Hi, I'm Rahat</h1>
-          <p class="subtitle">A product designer</p>
+          <h1 class="intro">Hi, I'm Rahat</h1>
+          <p class="subtitle">A <span id="designations"></span></p>
+          <p>
+            A tech enthusiast who has always had a knack for designing and
+            making stuff, be it hardware or software.
+          </p>
+          <p>
+            I have been working as a Product Designer for 3 years at Bioforge, where I have
+            3d modeled and fabricated medical devices of all sizes from small
+            wearables to life-size neonatal incubators.
+          </p>
         </div>
       </section>
       <section id="projects">
@@ -53,7 +62,11 @@
           </a>
           <a href="projects/social-proof-section/index.html" target="_blank">
             <div class="projectCard">
-              <img src="snapshots/social-proof-section.jpg" alt="snapshot of the project" class="projectImg" />
+              <img
+                src="snapshots/social-proof-section.jpg"
+                alt="snapshot of the project"
+                class="projectImg"
+              />
               <div class="projectTitle">Social Proof Section</div>
               <div class="projectSubtitle">frontend mentor project</div>
               <div class="projectDetails">
@@ -67,7 +80,11 @@
           </a>
           <a href="projects/tip-calculator-app/" target="_blank">
             <div class="projectCard">
-              <img src="snapshots/tip-calculator.jpg" alt="snapshot of the project" class="projectImg" />
+              <img
+                src="snapshots/tip-calculator.jpg"
+                alt="snapshot of the project"
+                class="projectImg"
+              />
               <div class="projectTitle">Tip Calculator</div>
               <div class="projectSubtitle">frontend mentor project</div>
               <div class="projectDetails">
@@ -81,15 +98,9 @@
           </a>
           <a href="https://rhshihab.github.io/react-potter/" target="_blank">
             <div class="projectCard">
-              <img
-                src="snapshots/react-potter.png"
-                alt=""
-                class="projectImg"
-              />
+              <img src="snapshots/react-potter.png" alt="" class="projectImg" />
               <div class="projectTitle">React Potter</div>
-              <div class="projectSubtitle">
-                a React project
-              </div>
+              <div class="projectSubtitle">a React project</div>
               <div class="projectDetails">
                 Features
                 <ul>
@@ -103,44 +114,65 @@
         </div>
       </section>
       <section id="contact">
-        <h1 class="title">Here are my social accounts</h1>
-        <div class="social-links">
-          <a
-            href="https://github.com/RHShihab"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="icons/github.png" alt="Github: " class="icon" /> /RHShihab
-          </a>
-          <a
-            href="https://www.linkedin.com/in/rhshihab/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="icons/linkedIn.png" alt="LinkedIn: " class="icon" />
-            /rhshihab/
-          </a>
-          <a
-            href="mailto:shihab.hasan3322@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="icons/mail.png" alt="Email: " class="icon" />
-            shihab.hasan3322@gmail.com
-          </a>
-          <footer>
-            to see the codes behind these projects please visit
-            <a
-              href="https://github.com/RHShihab/freecodecamp-journey"
-              target="_blank"
-              rel="noopener noreferrer"
-              id="no-wrap"
-            >
-              github.com/RHShihab/freecodecamp-journey
-            </a>
-          </footer>
+        <div class="inline">
+          <div>
+            <img src="images/profile-pic.jpg" alt="" class="profile-pic" />
+            <p>let's Talk</p>
+          </div>
+          <div>
+            <h1 class="title">Here are my social accounts</h1>
+            <div class="social-links">
+              <a
+                href="https://github.com/RHShihab"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/github.png" alt="Github: " class="icon" />
+                /RHShihab
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rhshihab/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/linkedIn.png" alt="LinkedIn: " class="icon" />
+                /rhshihab
+              </a>
+              <a
+                href="mailto:shihab.hasan3322@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="icons/mail.png" alt="Email: " class="icon" />
+                shihab.hasan3322@gmail.com
+              </a>
+            </div>
+          </div>
         </div>
+        <footer>
+          to see the codes behind these projects please visit
+          <a
+            href="https://github.com/RHShihab/Webapp-midterm"
+            target="_blank"
+            rel="noopener noreferrer"
+            id="no-wrap"
+          >
+            github.com/RHShihab/Webapp-midterm
+          </a>
+        </footer>
       </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var options = {
+        strings: ["Product Designer", "Robotics Enthusiast", "Web Developer"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        backDelay: 2000,
+        loop: true,
+      };
+
+      var typed = new Typed("#designations", options);
+    </script>
   </body>
 </html>
